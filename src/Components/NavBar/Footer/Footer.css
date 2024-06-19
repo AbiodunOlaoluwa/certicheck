@@ -1,0 +1,43 @@
+.footerContainer {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footerContent {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.otherLinks {
+    color: black;
+}
+
+.copyrightContainer {
+    font-weight: 500;
+    color: #c6c7c8;
+    padding-bottom: 1rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.socialsLogo {
+    height: 24px;
+    width: 24px;
+}
+
+.socialsLogo:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
